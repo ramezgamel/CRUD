@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="insert">
+      <div class="sec">
+        <label for="pro-name">Product Name</label>
+        <input type="text" id="pro-name">
+      </div>
+      <div class="sec">
+        <label for="pro-price">Product Price</label>
+        <input type="text" id="pro-price">
+      </div>
+      <div class="sec">
+        <label for="pro-category">Product Category</label>
+        <input type="text" id="pro-category">
+      </div>
+      <div class="sec" style="height: 100px;">
+        <label for="pro-description">Product Description</label>
+        <textarea type="text" id="pro-description"></textarea>
+      </div>
+      <button id="add">Add Product</button>
+      <div class="clean"></div>
+    </div>
+    <div class="output">
+      <input type="text" id="search" placeholder="Search...">
+      <ul class="head">
+        <li>Name</li> 
+        <li>Price</li>
+        <li>Category</li>
+        <li>Description</li>
+        <li>Update</li>
+        <li>Delete</li>
+        </ul>
+      <div class="myItems">
+      </div>
+    </div>
+  </div>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="main.js"></script>
+</body>
+</html>

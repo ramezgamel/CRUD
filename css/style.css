@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px;
+}
+.sec {
+  margin-bottom: 10px;
+  height: 35px;
+}
+.sec input {
+  width: 70%;
+  float: right;
+  padding: 5px;
+  font-size: 18px;
+}
+.sec textarea {
+  width: 70%;
+  float: right;
+  padding: 5px;
+  font-size: 15px;
+  height: 100px;
+}
+.sec label {
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #039be5;
+}
+.insert button {
+  padding: 8px 16px;
+  color: #039be5;
+  border: 1px solid #039be5;
+  font-size: 20px;
+  margin-top: 20px;
+  float: right;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .3s;
+  background-color: white;
+}
+.insert button:hover {
+  background-color: #039be5;
+  color: white;
+}
+.clean{
+  clear: both;
+}
+#search {
+  width: 70%;
+  padding: 5px;
+  font-size: 18px;
+  margin: 20px auto;
+  display: block;
+}
+.update,
+.delete {
+  padding: 5px 8px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: .3s;
+  background-color: white;
+}
+.update {
+  border: 1px solid #ff8f00;
+  color:#ff8f00;
+}
+.update:hover {
+  color: white;
+  background-color: #ff8f00;
+}
+.delete {
+  color: #e91e63;
+  border: 1px solid #e91e63;
+}
+.delete:hover {
+  color: white;
+  background-color: #e91e63;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+ul.head {
+  font-weight: bold;
+  font-size: 20px;
+  border-bottom: 1px solid #039be5;
+}
+ul.head li {
+  width: 100px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+ul.item li {
+  text-align: center;
+  width: 100px;
+  padding: 5px 0;
+  font-size: 18px;
+}
+
+
+table {
+  border-top: 1px solid #039be5;
+  width: 100%;
+}
+thead th {
+  padding: 10px;
+  color: #039be5;
+  font-size: 20px;
+}
+tr {
+  margin-bottom: 5px;
+}
+td {
+  text-align: center;
+  font-size: 18px;
+  height: 35px;
+}
